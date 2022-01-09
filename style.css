@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 50px;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-decoration: grey;
+    color: white;
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0; 
+    font-family: 'PT Sans', sans-serif;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    height: 40px;
+    align-items: center;
+    background-color: black;
+    
+}
+
+@media only screen and (max-width: 800px){
+    nav a{
+        color: hotpink;
+        
+    }
+    h1{
+        font-size: 15px;
+    }
+    nav{
+        width: 100%;
+    }
+}
+
+
+span{
+    padding: 10px;
+    
+    
+}
+a{
+    color: rgb(206, 91, 91);
+    text-decoration: none;
+}
+.image{
+    width: 100%;
+}
+.container{
+    position: relative;
+    text-align: center;
+    
+}
+
+#home{
+    background: url(/scorpio12.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+
+    
+}
+@media only screen and (min-width: 400px) {
+    .home{
+    background: url('scorpio12.jpg')no-repeat;
+    width: 360px;
+    }
+}
+
+    
+    
+.center{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.center a{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50vh;
+    padding: 1px 50px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.center a:hover{
+    color: rgb(63, 119, 184);
+    border: tomato;
+}
+
+
+.para{
+    display: flex;
+    
+    padding-block-start: 20px;
+    color: black;
+    flex-wrap: wrap;
+    border: solid;
+    padding-left: 50px;
+}
+.para img{
+    min-width: 300px;
+}
+
+
+.para ul{
+    padding-top: 20vh;
+    font-size: 30px;
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    background-color: #7575d4;
+    
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25vh;
+}
+.baapoftestimonials{
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+.testimonials{
+    border: 5px solid #ccc;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 10px;
+    width: 25%;
+    align-items: center;
+}
+.testimonials::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.testimonials img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.testimonials span{
+    font-size: 20px;
+    margin-right: 15px;
+}
+@media (max-width: 500px){
+    .testimonials{
+        text-align: center;
+        width: 80%;
+    }
+}
+
+h4{
+    font-size: 50px;
+}
+h5{
+    font-size: 50px;
+    color: white;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background: url(blackscorpio.jpg)repeat ;
+    
+    min-height: max-content;
+    
+}
+.enquiry{
+    border: solid grey 5px;
+    border-radius: 1em;
+    padding: 5%;
+    width: 30%;
+    text-align: start;
+    font-size: 20px;
+    font-display: broad;
+    color: white;
+    gap: 1em;
+    background: linear-gradient(blue, orange, green);
+}
+.enquiry > *{
+    padding: 5px;
+
+
+}
+input{
+    margin: 5px;
+    height: 20px;
+}
+.enquiry input{
+    width: 80%;
+}
+
+.enquiry button{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px){
+    .enquiry{
+        width: 90%;
+    }
+}
+footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+
+
+
+
+
